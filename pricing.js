@@ -2,7 +2,7 @@
         function () {         
          
                $("#node-box-1 .img-chip")
-               .fadeOut(500, function() {
+               .fadeIn(500, function() {
                    $("#node-box-1 .img-chip").prop('src',"https://uploads-ssl.webflow.com/5e4cf0c7e19c924b448d0560/5ee657d5b71cb46d0b7869fa_blue-processor.gif");
                })
                .fadeIn(300);
@@ -12,11 +12,11 @@
         },
         function () {       
          
-               $("#node-box-1 .img-chip")
-               .fadeOut(300, function() {
-                   $("#node-box-1 .img-chip").prop("src", "https://uploads-ssl.webflow.com/5e4cf0c7e19c924b448d0560/5e7e1db76504fe23c40f14c6_Vector-2.png");
-               })
-               .fadeIn(500);
+//                $("#node-box-1 .img-chip")
+//                .fadeIn(300, function() {
+//                    $("#node-box-1 .img-chip").prop("src", "https://uploads-ssl.webflow.com/5e4cf0c7e19c924b448d0560/5e7e1db76504fe23c40f14c6_Vector-2.png");
+//                })
+//                .fadeIn(500);
          
            
                 $("#node-box-1 .price-node-holder").prop("style", "color:rgb(102, 102, 102)"),
