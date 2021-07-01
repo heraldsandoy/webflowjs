@@ -1,0 +1,140 @@
+.prev-next-arrow {
+    display: none;
+}
+.prev .icon-circ img {
+    display: none;
+}
+.mobile-problems {
+    display: none !important;
+}
+.flex-logo img {https://github.com/heraldsandoy/webflowjs
+    cursor: pointer;
+}
+.for-slick-mobile {
+    display: none;
+}
+.free-trial {
+    display: block !important;
+}
+.tabs-on-mobile {
+    display: none;
+    padding-top: 60px;
+}
+.tabs-on-mobile .accordion {
+    border-right: 1px solid #a7b4cc;
+    padding-right: 22px;
+}
+.accordion__header {
+    padding: 1em;
+    background-color: transparent !important;
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding-right: 0;
+    padding-left: 0;
+    line-height: 28px;
+    position: relative;
+}
+.accordion__header.is-active::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: -25px;
+    width: 5px;
+    height: 100%;
+    background: #59b0ef;
+    z-index: 1;
+    border-radius: 80px;
+}
+.accordion__header h2 {
+    color: #8792a8;
+    font-size: 18px;
+    font-weight: 500;
+}
+.accordion__header.is-active h2 {
+    color: #59b0ef;
+    font-weight: 700;
+}
+.accordion__header > * {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+.accordion__toggle {
+    margin-left: 10px;
+    height: 3px;
+    background-color: #222;
+    width: 13px;
+    display: block;
+    position: relative;
+    flex-shrink: 1;
+    border-radius: 2px;
+}
+.is-active .accordion__toggle {
+    background-color: #fff;
+}
+.accordion__body {
+    display: none;
+    padding: 1em;
+    border-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.accordion__body.is-active {
+    display: block;
+}
+.tab {
+    padding-top: 70px;
+}
+.img-vid {
+    text-align: center;
+}
+.ready-join {
+    filter: drop-shadow(0 20px 70px rgba(164, 168, 182, 0.35));
+}
+.img-vid img,
+.img-vid video {
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    filter: drop-shadow(0 4px 18px rgba(48, 52, 56, 0.28));
+    border-radius: 8px;
+    width: 100% !important;
+}
+.content-w {
+    display: flex;
+    align-items: center;
+    margin-top: 45px;
+    padding-left: 20px;
+}
+.content-w p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #6b758a;
+    padding-right: 30px;
+}
+.problem-col .prob-col p {
+    display: none;
+}
+.problem-col .prob-col:hover p {
+    display: block;
+}
+.problem-col .prob-col:hover {
+    height: 250px !important;
+}
+.problem-col .prob-col.hardware:hover {
+    height: 290px !important;
+}
+.problem-col .prob-col.need-hire:hover {
+    height: 320px !important;
+}
+.problem-col .prob-col.in-dark:hover {
+    height: 299px !important;
+}
+.problem-col .prob-col.last-minute:hover {
+    height: 265px !important;
+}
